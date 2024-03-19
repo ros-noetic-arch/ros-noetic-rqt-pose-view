@@ -7,7 +7,7 @@ pkgname='ros-noetic-rqt-pose-view'
 pkgver='0.5.11'
 _pkgver_patch=0
 arch=('any')
-pkgrel=1
+pkgrel=2
 license=('BSD')
 
 ros_makedepends=(
@@ -38,9 +38,10 @@ depends=(
 	python-rospkg
 )
 
-_dir="rqt_pose_view-${pkgver}/"
-source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-visualization/rqt_pose_view/archive/${pkgver}.tar.gz")
-sha256sums=('44abf89dbde2c52cbe8feb11cc58e94439b31dd09be85989eee2cf38e91eab1c')
+_commit="42e917442c2e4f1c627a4c1d7dd45227f6114b4b"
+_dir="rqt_pose_view-${_commit}/"
+source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-visualization/rqt_pose_view/archive/${_commit}.tar.gz")
+sha256sums=('a4b6158f8293f683061e9297f3d821cab9eaeb0bf8dbb42d06832b9ef3dbe2b8')
 
 build() {
 	# Use ROS environment variables.

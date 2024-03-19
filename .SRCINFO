@@ -1,7 +1,7 @@
 pkgbase = ros-noetic-rqt-pose-view
 	pkgdesc = ROS - rqt_pose_view provides a GUI plugin for visualizing 3D poses.
 	pkgver = 0.5.11
-	pkgrel = 1
+	pkgrel = 2
 	url = https://wiki.ros.org/rqt_pose_view
 	arch = any
 	license = BSD
@@ -19,8 +19,7 @@ pkgbase = ros-noetic-rqt-pose-view
 	depends = ros-noetic-geometry-msgs
 	depends = python-opengl
 	depends = python-rospkg
-	source = ros-noetic-rqt-pose-view-0.5.11.tar.gz::https://github.com/ros-visualization/rqt_pose_view/archive/0.5.11.tar.gz
-	sha256sums = 44abf89dbde2c52cbe8feb11cc58e94439b31dd09be85989eee2cf38e91eab1c
+	source = ros-noetic-rqt-pose-view-0.5.11.tar.gz::https://github.com/ros-visualization/rqt_pose_view/archive/42e917442c2e4f1c627a4c1d7dd45227f6114b4b.tar.gz
+	sha256sums = a4b6158f8293f683061e9297f3d821cab9eaeb0bf8dbb42d06832b9ef3dbe2b8
 
 pkgname = ros-noetic-rqt-pose-view
-
